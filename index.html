@@ -3,34 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Point to Point Map</title>
-    
+    <title>PathFinder</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <h1>Point to Point Map</h1>
-
+    <h1>PathFinder</h1>
+    
     <div id="search-container">
         <input type="text" id="place-input" placeholder="Enter a place name..." />
         <button id="search-btn">Search</button>
         <div id="suggestions"></div>
     </div>
-
+    
     <div id="map"></div>
-
+    
+    <div id="loading-indicator">Loading...</div>
+    
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
     <script src="script.js"></script>
-
+    
     <div id="video-section">
         <video autoplay loop muted>
             <source src="videos/background.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
-    
 </body>
 </html>
