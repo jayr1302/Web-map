@@ -7,14 +7,14 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Add a subtle background color to the header */
+/* Header */
 h1 {
     margin-top: 20px;
     font-size: 28px;
     color: #2c3e50;
 }
 
-/* Input bar styling */
+/* Search container */
 #search-container {
     margin: 20px auto;
     width: 90%;
@@ -52,6 +52,7 @@ h1 {
     background: #2980b9;
 }
 
+/* Suggestions dropdown */
 #suggestions {
     position: absolute;
     background: white;
@@ -88,7 +89,7 @@ h1 {
     border-radius: 5px;
 }
 
-/* Loading Spinner */
+/* Loading Indicator */
 #loading-indicator {
     display: none;
     position: fixed;
@@ -100,7 +101,7 @@ h1 {
     z-index: 9999;
 }
 
-/* Fullscreen Background Video */
+/* Background Video */
 #video-section {
     position: fixed;
     top: 0;
